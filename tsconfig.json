@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "exclude": ["ignore"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true
+  }
+}
